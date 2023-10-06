@@ -1,0 +1,94 @@
+/* Estilo para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #e1306c, #c13584, #833ab4, #5851db, #405de6);
+  }
+  
+  /* Estilo para o cabeçalho */
+  h1 {
+    text-align: center;
+    margin: 20px 0;
+    color: #dddddd;
+  }
+  
+  /* Estilo para o formulário de contato */
+  #contato-form {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 400px;
+  }
+  
+  /* Estilo para os campos de formulário */
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"]{
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  textarea{
+    width: 90% ;
+    padding: 10px;
+    height: 90px;
+  }
+  /* Estilo para os botões */
+  button {
+    background-color: #b000b0;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #7700b3;
+  }
+  
+  /* Estilo para a lista de contatos */
+  #contato-lista {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Estilo para cada item da lista de contatos */
+  #contato-lista li {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  /* Estilo para o grupo de botões */
+  .botoes {
+    text-align: center;
+  }
+  
+  /* Estilo para os botões "Mostrar Contatos" e "Ocultar Contatos" */
+  #mostrar-contatos,
+  #ocultar-contatos {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #ocultar-contatos {
+    background-color: #e1306c;
+  }
+  
+  #mostrar-contatos:hover,
+  #ocultar-contatos:hover {
+    background-color: #7700b3;
+  }
